@@ -8,25 +8,25 @@ function Navbar() {
     <nav className={styles.navbar}>
       <ul>
         <li>
-          <NavLink to="/home" className={({isActive}) => isActive ? [styles.navlink, styles.navlinkActive].join(' ').trim() : styles.navlink}>
+          <NavLink to="/porfolio_yellow/home" className={({isActive}) => isActive ? [styles.navlink, styles.navlinkActive].join(' ').trim() : styles.navlink}>
             <FaHome className={styles.navbar__icono} />
             <h2>Home</h2>
           </NavLink>
         </li>
         <li>
-        <NavLink to="/about" className={({isActive}) => isActive ? [styles.navlink, styles.navlinkActive].join(' ').trim() : styles.navlink}>
+        <NavLink to="/porfolio_yellow/about" className={({isActive}) => isActive ? [styles.navlink, styles.navlinkActive].join(' ').trim() : styles.navlink}>
             <FaUser className={styles.navbar__icono} />
             <h2>About</h2>
           </NavLink>
         </li>
         <li>
-        <NavLink to="/portfolio" className={({isActive}) => isActive ? [styles.navlink, styles.navlinkActive].join(' ').trim() : styles.navlink}>
+        <NavLink to="/porfolio_yellow/portfolio" className={({isActive}) => isActive ? [styles.navlink, styles.navlinkActive].join(' ').trim() : styles.navlink}>
             <FaBriefcase className={styles.navbar__icono} />
             <h2>Portfolio</h2>
           </NavLink>
         </li>
         <li>
-        <NavLink to="/contact" className={({isActive}) => isActive ? [styles.navlink, styles.navlinkActive].join(' ').trim() : styles.navlink}>
+        <NavLink to="/porfolio_yellow/contact" className={({isActive}) => isActive ? [styles.navlink, styles.navlinkActive].join(' ').trim() : styles.navlink}>
             <HiMailOpen className={styles.navbar__icono} />
             <h2>Contact</h2>
           </NavLink>

@@ -25,7 +25,7 @@ function Home() {
             building excellent software that improves the lives of those around
             me.
           </p>
-          <BotonIcono ruta='/about' texto='more about me' icono={<FaArrowRight className={styles.home__arrow}/>}/>
+          <BotonIcono ruta='/porfolio_yellow/about' texto='more about me' icono={<FaArrowRight className={styles.home__arrow}/>}/>
         </div>
       </main>
     </>
