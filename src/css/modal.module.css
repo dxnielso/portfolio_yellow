@@ -1,0 +1,32 @@
+.modal {
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 120;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal__box {
+  position: relative;
+  width: 800px;
+  max-width: 80%;
+  height: 400px;
+  max-height: 80%;
+  background-color: #fff;
+  box-shadow: #000 5px 5px 15px;
+  border-radius: 10px;
+  padding: 2.2em;
+  overflow: hidden;
+}
+.modal__closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5em;
+  cursor: pointer;
+}

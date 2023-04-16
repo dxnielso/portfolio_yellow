@@ -1,0 +1,36 @@
+.botonIcono__link {
+  border: 1px solid var(--secundario);
+  border-radius: 50px;
+  color: #fff;
+  font-size: .9em;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.botonIcono__link > span {
+  z-index: 100;
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 18px 70px 18px 35px;
+}
+.botonIcono__link:hover::before {
+  clip-path: inset(0 0 0 0);
+}
+.botonIcono__link::before {
+  content: '';
+  background-color: var(--secundario);
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 101%;
+  width: 100%;
+  border-radius: 50px;
+  transition: clip-path .4s;
+  clip-path: inset(0 0 0 100%);
+  z-index: 80;
+}
